@@ -1,0 +1,219 @@
+/* /Pages/Acceuil.razor.rz.scp.css */
+h1[b-3alveb698o] {
+    text-align: center;
+}
+
+img[b-3alveb698o] {
+    margin: 25px; 
+    border-radius: 50%; 
+    display: block; 
+    margin-left: auto; 
+    margin-right: auto;
+}
+
+.title[b-3alveb698o] {  
+    text-align: center;
+    font-size: 18px;
+    color: grey;
+}
+
+.text-container[b-3alveb698o] {
+    text-align: center; 
+    max-width: 1000px; 
+    font-size: 18px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.text-container p[b-3alveb698o] {
+    text-align: left;
+}
+/* /Pages/Clinique.razor.rz.scp.css */
+.text-container[b-g6fb94cjyn] {
+    text-align: center; 
+    max-width: 1000px; 
+    font-size: 18px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.text-container p[b-g6fb94cjyn] {
+    text-align: left;
+}
+/* /Pages/Videos.razor.rz.scp.css */
+.video-container[b-et9vb47joz] {
+	position: relative;
+    width: 100%;
+	padding-bottom: 56.25%; /* 16:9 */
+	height: 0;
+}
+
+.video-container iframe[b-et9vb47joz] {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+/* /Shared/MainLayout.razor.rz.scp.css */
+.page[b-aheiip16dn] {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+main[b-aheiip16dn] {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    flex: 1;
+}
+
+article[b-aheiip16dn] {
+    flex: 1;
+}
+
+.sidebar[b-aheiip16dn] {
+    background-image: linear-gradient(180deg, rgb(62,82,79,255) 0%, #3a0647 70%);
+}
+
+.top-row[b-aheiip16dn] {
+    background-color: #f7f7f7;
+    border-bottom: 1px solid #d6d5d5;
+    justify-content: flex-end;
+    height: 3.5rem;
+    display: flex;
+    align-items: center;
+}
+
+    .top-row[b-aheiip16dn]  a, .top-row[b-aheiip16dn]  .btn-link {
+        white-space: nowrap;
+        margin-left: 1.5rem;
+        text-decoration: none;
+    }
+
+    .top-row[b-aheiip16dn]  a:hover, .top-row[b-aheiip16dn]  .btn-link:hover {
+        text-decoration: underline;
+    }
+
+    .top-row[b-aheiip16dn]  a:first-child {
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+
+@media (max-width: 640.98px) {
+    .top-row:not(.auth)[b-aheiip16dn] {
+        display: none;
+    }
+
+    .top-row.auth[b-aheiip16dn] {
+        justify-content: space-between;
+    }
+
+    .top-row[b-aheiip16dn]  a, .top-row[b-aheiip16dn]  .btn-link {
+        margin-left: 0;
+    }
+}
+
+@media (min-width: 641px) {
+    .page[b-aheiip16dn] {
+        flex-direction: row;
+    }
+
+    .sidebar[b-aheiip16dn] {
+        width: 250px;
+        height: 100vh;
+        position: sticky;
+        top: 0;
+    }
+
+    .top-row[b-aheiip16dn] {
+        position: sticky;
+        top: 0;
+        z-index: 1;
+    }
+
+    .top-row.auth[b-aheiip16dn]  a:first-child {
+        flex: 1;
+        text-align: right;
+        width: 0;
+    }
+
+    .top-row[b-aheiip16dn], article[b-aheiip16dn] {
+        padding-left: 2rem !important;
+        padding-right: 1.5rem !important;
+    }
+}
+/* /Shared/NavBrand.razor.rz.scp.css */
+div[b-5vn7uteo2y] {
+    display: flex; 
+    align-items: center;
+}
+
+img[b-5vn7uteo2y] {
+    margin-right: 10px;
+}
+/* /Shared/NavMenu.razor.rz.scp.css */
+.navbar-toggler[b-u1whj06pc2] {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.top-row[b-u1whj06pc2] {
+    height: 3.5rem;
+    background-color: rgba(0,0,0,0.4);
+}
+
+.navbar-brand[b-u1whj06pc2] {
+    font-size: 1.1rem;
+}
+
+.oi[b-u1whj06pc2] {
+    width: 2rem;
+    font-size: 1.1rem;
+    vertical-align: text-top;
+    top: -2px;
+}
+
+.nav-item[b-u1whj06pc2] {
+    font-size: 0.9rem;
+    padding-bottom: 0.5rem;
+}
+
+    .nav-item:first-of-type[b-u1whj06pc2] {
+        padding-top: 1rem;
+    }
+
+    .nav-item:last-of-type[b-u1whj06pc2] {
+        padding-bottom: 1rem;
+    }
+
+    .nav-item[b-u1whj06pc2]  a {
+        color: #d7d7d7;
+        border-radius: 4px;
+        height: 3rem;
+        display: flex;
+        align-items: center;
+        line-height: 3rem;
+    }
+
+.nav-item[b-u1whj06pc2]  a.active {
+    background-color: rgba(255,255,255,0.25);
+    color: white;
+}
+
+.nav-item[b-u1whj06pc2]  a:hover {
+    background-color: rgba(255,255,255,0.1);
+    color: white;
+}
+
+@media (min-width: 641px) {
+    .navbar-toggler[b-u1whj06pc2] {
+        display: none;
+    }
+
+    .collapse[b-u1whj06pc2] {
+        /* Never collapse the sidebar for wide screens */
+        display: block;
+    }
+}
